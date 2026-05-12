@@ -13,7 +13,7 @@
     {
       "label": "Build static",
       "type": "shell",
-      "command": "CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -ldflags '-s -w' -o c5exporter main.go service_provider.go && ls -l c5exporter",
+      "command": "CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -ldflags '-s -w' -o c5exporter && ls -l c5exporter",
       "detail": "Create a static build for Linux AMD64",
       "group": {
         "kind": "build",
