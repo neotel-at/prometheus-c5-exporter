@@ -33,7 +33,7 @@
     {
       "label": "Build tagged release distribution packages",
       "type": "shell",
-      "command": "goreleaser release --skip-publish --clean",
+      "command": "goreleaser release --skip=publish --clean",
       "group": "build",
       "detail": "Build a debian package based on the latest Git tag",
       "problemMatcher": []
